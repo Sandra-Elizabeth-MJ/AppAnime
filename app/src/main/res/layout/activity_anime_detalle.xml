@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".activities.AnimeDetalleActivity">
     <androidx.recyclerview.widget.RecyclerView
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/rvAnimes"
-        tools:listitem="@layout/item_rv_anime"/>
+        android:id="@+id/rvEpisodios"
+        tools:listitem="@layout/item_rv_episodios"/>
+
 
 </LinearLayout>
